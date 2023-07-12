@@ -1,0 +1,64 @@
+import numpy as np
+
+
+
+departamentos = []
+compradores = []
+
+
+def c_d():
+  print("Compra de departamentos...")
+  
+
+  print("Tipo A, 3.800 UF")
+  print("Tipo B, 3.000 UF")
+  print("Tipo C, 2.800 UF")
+  print("Tipo D, 3.500 UF")
+
+  rut = int(input("Ingrese su rut: "))
+  tdp= int(input("Ingrese el tipo de departamento "))
+def m_d_d():
+  print("Mostrando departamenos disponibles: ")
+  
+
+def v_l_c():
+  print("Mostrando el listado de clientes: ")
+
+
+def m_g_t():
+
+  print("Mostrando las ganancias totales generadas: ")
+
+def s():
+  print("\nGracias por utilizar nuestro programa")
+  print("Desarrollador:\nCristian Briones")
+  print("Fecha:\n12/07/23")
+
+
+def menu():
+  print("\n\nBienvenido a la inmobiliaria Casa Feliz")
+  print("1.- Comprar Departamentos")
+  print("2.- Mostrar departamentos disponibles")
+  print("3.- Ver listado de clientes")
+  print("4.- Mostrar ganancias totales")
+  print("5.- Salir")
+
+
+
+while True:
+  menu()
+  opcion = int(input("Ingrese una de las siguentes opciones "))
+
+  if opcion == 1:
+    c_d()
+  elif opcion == 2:
+    m_d_d()
+  elif opcion == 3:
+    v_l_c()
+  elif opcion == 4:
+    m_g_t()
+  elif opcion == 5:
+    s()
+    break
+  else:
+    print("Seleccione una opcion valida")
